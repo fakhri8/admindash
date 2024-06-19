@@ -1,0 +1,190 @@
+.image-slideshow-container {
+    display: flex;
+    background-color: #f6f3f2;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .image-slideshow-container {
+      padding-top: 60px; 
+    }
+  
+    .iconLogin {
+      right: 20px; 
+    }
+  
+    .logo {
+      width: 150px; 
+      height: 150px; 
+      border-radius: 50%;
+      margin-bottom: -30px;
+      left: 20px; 
+      top: 20px; 
+    }
+  
+    .about {
+      right: 70px; 
+    }
+  
+    .search-bar input {
+      width: 80%; 
+      left: 10%; 
+    }
+  
+  
+  }
+  
+  .iconLogin {
+    width: 30px;
+    height: 30px;
+    margin-bottom: -60px;
+    position: absolute;
+    text-decoration: underline;
+    right: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .iconLogin:hover {
+    transform: scale(1.1);
+    color: rgb(230, 223, 223)
+  }
+  
+  .logo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: -60px;
+    position: absolute;
+    left: 140px;
+    top: -30px;
+    cursor: pointer;
+  }
+  
+  .menu {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: -60px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image-slideshow {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .name {
+    color: #fabea7;
+    position: absolute;
+    top: 30px;
+    font-size: 2em;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .image-card {
+    width: 100%;
+    max-width: 310px;
+    height: 260px;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out, box-shadow 0.3s ease-in-out;
+    margin-right: 10px;
+  }
+  
+  .about {
+    width: 40px;
+    height: 40px;
+    margin-bottom: -55px;
+    position: absolute;
+    right: 120px;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .slog {
+    color: #0e3c52;
+    font-size: 2em;
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+    position: absolute;
+    top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .sousou {
+    color: #0e3c52;
+    font-size: 2em;
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+    position: absolute;
+    top: 530px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .about:hover {
+    transform: scale(1.1);
+    color: rgb(230, 223, 223)
+  }
+  
+  .image-card:last-child {
+    margin-right: 0;
+  }
+  
+  .image-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #888;
+    font-size: 14px;
+    position: absolute;
+    bottom: 15px;
+  }
+  
+  .footer a {
+    color: #3498db;
+    text-decoration: none;
+    margin: 0 20px;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .search-bar {
+    margin-top: 20px;
+  }
+  
+  .search-bar input {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    outline: none;
+    font-size: 16px;
+    position: absolute;
+    left: 950px;
+    top: 40px;
+  }
+  
+  .search-bar input::placeholder {
+    color: #999;
+  }
+  

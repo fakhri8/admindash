@@ -1,0 +1,197 @@
+.cho{
+    display: flex;
+    background-color: #f6f3f2;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 720px;
+}
+.test{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 200px;
+    left: 180px;
+    font-size: large;
+}
+
+.fN-input {
+    width: 350px; 
+  padding: 10px;
+  background-color: #f6f3f2;
+  border: none;
+  border-bottom: 1px solid #000; 
+  outline: none;
+  transition: border-color 0.3s ease;
+    position: absolute;
+    top: 270px;
+    left:150px
+  }
+  
+  .fN-input:focus {
+    border-color: 'grey';
+  }
+
+  .lN-input {
+    width: 350px; 
+  padding: 10px;
+  background-color: #f6f3f2;
+  border: none;
+  border-bottom: 1px solid #000; 
+  outline: none;
+  transition: border-color 0.3s ease;
+    position: absolute;
+    top: 325px;
+    left:150px
+  }
+  
+  .lN-input:focus {
+    border-color: 'grey';
+  }
+
+  .logi-input {
+    width: 350px; 
+  padding: 10px;
+  background-color: #f6f3f2;
+  border: none;
+  border-bottom: 1px solid #000; 
+  outline: none;
+  transition: border-color 0.3s ease;
+    position: absolute;
+    top: 380px;
+    left:150px
+  }
+  
+  .logi-input:focus {
+    border-color: 'grey';
+  }
+  .passi-input {
+    width: 350px; 
+  padding: 10px;
+  background-color: #f6f3f2;
+  border: none;
+  border-bottom: 1px solid #000; 
+  outline: none;
+  transition: border-color 0.3s ease;
+    position: absolute;
+    top: 550px;
+    left:150px
+  }
+  
+  .passi-input:focus {
+    border-color: 'grey';
+  }
+  .pas-input {
+    width: 350px; 
+  padding: 10px;
+  background-color: #f6f3f2;
+  border: none;
+  border-bottom: 1px solid #000; 
+  outline: none;
+  transition: border-color 0.3s ease;
+    position: absolute;
+    top: 610px;
+    left:150px
+  }
+  
+  .pas-input:focus {
+    border-color: 'grey';
+  }
+  .regreg{
+    position: absolute;
+        top: 710px;
+        left: 150px;
+        width: 350px;
+        background-color: #f6f3f2;
+        transition: color 0.3s ease;
+  }
+  .regreg:hover {
+    color: grey; 
+  }
+  .role-input {
+    width: 350px; 
+  padding: 10px;
+  background-color: #f6f3f2;
+  border: none;
+  border-bottom: 1px solid #000; 
+  outline: none;
+  transition: border-color 0.3s ease;
+    position: absolute;
+    top: 440px;
+    left:150px
+  }
+  
+  .role-input:focus {
+    border-color: 'grey';
+  }
+  .num-input {
+    width: 350px; 
+  padding: 10px;
+  background-color: #f6f3f2;
+  border: none;
+  border-bottom: 1px solid #000; 
+  outline: none;
+  transition: border-color 0.3s ease;
+    position: absolute;
+    top: 495px;
+    left:150px
+  }
+  
+  .num-input:focus {
+    border-color: 'grey';
+  }
+
+
+
+
+  /* SignUp.css */
+
+
+.wrapper {
+  width: 150%;
+  max-width: 400px;
+  margin: 20px;
+}
+
+.login-logo {
+  width: 200px; /* Adjust as needed */
+  margin-bottom: 20px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white; /* Ensure the card has a white background for contrast */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+.text-danger {
+  font-size: 0.875rem;
+}
+/* New CSS for the h3 element */
+.card-title {
+  font-size: 1.25rem; /* Adjust the font size as needed */
+  margin-bottom: 20px;
+}
+
+/* New CSS for the p element */
+.card-subtitle {
+  font-size: 0.875rem; /* Adjust the font size as needed */
+  margin-bottom: 0.5cm;
+}
+
+/* New CSS for the green button */
+.btn-green {
+  background-color: #28a745; /* Green color */
+  color: white; /* Text color */
+}
+
+.btn-green:hover {
+  background-color: #218838; /* Darker green color on hover */
+}
